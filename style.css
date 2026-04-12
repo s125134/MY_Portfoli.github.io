@@ -8,8 +8,16 @@ body {
 header {
   background: #2c3e50;
   color: white;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 15px;
 }
 
 section {
@@ -43,4 +51,31 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}nav {
+  background: #34495e;
+  padding: 10px 0;
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+
