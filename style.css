@@ -12,15 +12,18 @@ header {
   text-align: center;
 }
 .profile-pic {
-  width: 100px;        /* controls width */
-  height: 100px;       /* controls height */
-  border-radius: 50%;  /* makes it circular */
+  width: 150px;          /* controls size */
+  height: 150px;         /* fixed height */
+  border-radius: 50%;    /* makes it circular */
+  object-fit: cover;     /* crops rectangular images */
   border: 4px solid #fff;
   margin-bottom: 15px;
-  object-fit: cover;   /* crops nicely */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    /* centers the image */
 }
 
-}
+
 
 section {
   padding: 40px;
